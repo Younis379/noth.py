@@ -1,5 +1,11 @@
-var = True
-if var ==True:
-    print("var is correct")
-else:
-    print("var is not correct")
+def conversation(name1,name2):
+    print(f"salam u alaykum {name1} {name2}")
+    print("baxerben")
+
+
+print("chonyati baxerhatn krdn")
+conversation("hasan" , "ahmed")
+print("farmun danish")
+
+
+
