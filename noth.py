@@ -1,11 +1,13 @@
-def conversation(name1,name2):
-    print(f"salam u alaykum {name1} {name2}")
-    print("baxerben")
+class Person:
+    def __init__(self,name):
+        self.name = name
+
+    def talking(self):
+        print(f"salam i'm {self.name}")
 
 
-print("chonyati baxerhatn krdn")
-conversation("hasan" , "ahmed")
-print("farmun danish")
+var = Person("younis")
+print(var.talking())
 
-
-
+vari2 = Person("ibrahim")
+print(vari2.name)
