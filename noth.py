@@ -1,13 +1,11 @@
-class Person:
-    def __init__(self,name):
-        self.name = name
-
-    def talking(self):
-        print(f"salam i'm {self.name}")
+class Players:
+    print("plays in pitch")
 
 
-var = Person("younis")
-print(var.talking())
+class Attackers(Players):
+#don't forget to write pass
+    pass
 
-vari2 = Person("ibrahim")
-print(vari2.name)
+
+attack =Attackers()
+print(attack)
