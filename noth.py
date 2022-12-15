@@ -1,10 +1,12 @@
-from list import find_max
-list = [10, 4, 2, 20, 5, 4]
-max= find_max(list)
+import random
+class Dice:
+
+    def roll(self):
+           first= random.randint(1,10)
+           second = random.randint(1,10)
+           return first,second
 
 
 
-
-
-
-print(max)
+var1 = Dice()
+print(var1.roll())
