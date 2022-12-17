@@ -1,9 +1,11 @@
-x = "salam u alaykum"
-print(len(x))
-print(x)
-print(x.upper())
-print(x.find("a"))
-print(x.find("r"))
-print(x.find("salam"))
- print(x.replace("salam" , 'salaam' ))
-print("salaam" in x)
+hot_day =False
+cold_day = False
+if not hot_day:
+    print("it's a hot day drink plenty of water")
+elif cold_day:
+    print("wear many clothes")
+
+else:
+    print("it's a nice day")
+
+print("have a good day")
