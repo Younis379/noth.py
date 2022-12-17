@@ -1,9 +1,10 @@
-price_of_house = 1000000
-buyer_has_good_credit = False
-if buyer_has_good_credit:
-                        sale = price_of_house * 0.1
+name = input("name:")
+
+if not len(name) > 3:
+    print("can't be less than three character")
+
+elif len(name) > 10:
+    print("can't be greater than ten characters")
 
 else:
-    sale = price_of_house * 0.2
-
-print(f"downpayment:${sale}")
+    print("welcome to the program")
