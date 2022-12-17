@@ -1,12 +1,8 @@
-import random
-class Dice:
-
-    def roll(self):
-           first= random.randint(1,10)
-           second = random.randint(1,10)
-           return first,second
-
+#string
+print("younis ibrahim")
+print("0----")
+print(" ||||")
+#expression
+print("*" * 10)
 
 
-var1 = Dice()
-print(var1.roll())
