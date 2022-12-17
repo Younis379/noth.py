@@ -1,3 +1,3 @@
-name ="younis ibrahim"
-age = 20
-new_patient = True
+name = input("what's your name? ")
+color = input("what's your favorite color? ")
+print(name + ' likes ' + color + ' color')
