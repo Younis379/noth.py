@@ -1,3 +1,4 @@
-name = input("what's your name? ")
-color = input("what's your favorite color? ")
-print(name + ' likes ' + color + ' color')
+age = input("age: ")
+birthdate = 2022 -int(age)
+print(birthdate)
+print(type(age))
