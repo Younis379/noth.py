@@ -1,8 +1,17 @@
-temperture = 30
-if temperture >= 30:
-    print("it's a hot day")
-elif temperture <= 10:
-    print("it's a cold day")
 
-else:
-    print("it's a good day")
+weight = input("weight: ")
+type = input(f"'kg' or 'lbs'").lower()
+
+if type == 'kg':
+              converted= int(weight)/0.45
+              print(f"you are {converted} pound.")
+
+elif type == 'lbs':
+                  converted = int(weight)*0.45
+                  print(f"you are {converted} kilos. ")
+
+
+
+
+
+
