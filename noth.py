@@ -1,14 +1,8 @@
-
-weight = input("weight: ")
-type = input(f"'kg' or 'lbs'").lower()
-
-if type == 'kg':
-              converted= int(weight)/0.45
-              print(f"you are {converted} pound.")
-
-elif type == 'lbs':
-                  converted = int(weight)*0.45
-                  print(f"you are {converted} kilos. ")
+x = 1
+while x<=5:
+    print('Y' * x)
+    x+=1
+print("done")
 
 
 
