@@ -1,4 +1,4 @@
-age = input("age: ")
-birthdate = 2022 -int(age)
-print(birthdate)
-print(type(age))
+name ="younis ibrahim ali"
+print(name[1:-1])
+print(name[1:])
+print(name[:])
