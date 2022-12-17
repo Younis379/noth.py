@@ -1,8 +1,3 @@
-#string
-print("younis ibrahim")
-print("0----")
-print(" ||||")
-#expression
-print("*" * 10)
-
-
+name ="younis ibrahim"
+age = 20
+new_patient = True
