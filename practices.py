@@ -1,10 +1,8 @@
-stars = [5, 2, 5, 2, 2]
-
-for item in stars:
-    output = ""
-    x = (item)
-    for z in range(x):
-        output+="*"
-    print(output)
+list = [2,4,6,8,10]
+max =list[0]
+for item in list:
+    if max < item:
+        max = item
+print(max)
 
 
