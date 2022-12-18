@@ -1,7 +1,10 @@
+stars = [5, 2, 5, 2, 2]
 
-list = [50,100,30]
-tot = 0
-for item in list:
-    tot+=item
-print(tot)
+for item in stars:
+    output = ""
+    x = (item)
+    for z in range(x):
+        output+="*"
+    print(output)
+
 
