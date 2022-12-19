@@ -1,9 +1,14 @@
-def greeting(name1, name2):
-    print(f"salam u alaykum {name1} {name2}")
-    print(f"baxerben {name1} {name2}")
-    return
+x = input("... ").split(' ')
+def emoji():
+    emoji = {
+        ":)": "😁",
+        ":(": "😢"
+    }
+    out = ''
+    for item in x:
+        out += emoji.get(item, item) + ' '
+        return out
 
- #key word argument must always come after positional argument
-print("sarata")
-greeting("younis", name2="ibrahim")
-print("kotayi" )
+print(emoji())
+
+
