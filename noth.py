@@ -1,12 +1,9 @@
-personal={
-    "name":"younis ibrahim ali",
-    "age":"19",
-    "phone":"07842491221"
-
+emoji = {
+    ":)": "😁",
+    ":(": "😢"
 }
-print(personal["name"])
-print(personal.get("Name" , "salma "))
-personal["name"] = "sarab ibrahim"
-
-
-
+out =''
+x = input(" ").split(' ')
+for item in x:
+        out += emoji.get(item, item) + ' '
+print(out)
