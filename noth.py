@@ -5,5 +5,5 @@ def greeting(name1, name2):
 
  #key word argument must always come after positional argument
 print("sarata")
-print(greeting("younis", name2="ibrahim"))
+greeting("younis", name2="ibrahim")
 print("kotayi" )

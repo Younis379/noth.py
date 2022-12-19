@@ -1,9 +1,5 @@
-def greeting(name , name2):
-    print(f"salam u alaykum {name} {name2}")
-    print(f"baxerben {name} {name2}")
-    return
+def calc(num):
+     return (num * num)
 
 
-print("sarat")
-print(greeting(name="younis", name2="ibrahim"))
-print("kotayi")
+print(calc(9))
