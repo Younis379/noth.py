@@ -1,6 +1,12 @@
-list = [2, 4, 6, 4, 2, 5, 8, 9, 10, 14, 17, 74, 2, 3, 2, 2, 32]
-out =[]
-for item in list:
-    if item not in out:
-        out.append(item)
-print(out)
+
+numbers = {
+    "1": "one",
+    "2": "two",
+    "3": "three"
+
+}
+output = ""
+x = input("phone..")
+for item in x:
+   output += numbers.get(item, "!") + ' '
+print(output)
