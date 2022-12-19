@@ -1,4 +1,5 @@
 x = input("... ").split(' ')
+
 def emoji():
     emoji = {
         ":)": "😁",
@@ -7,7 +8,9 @@ def emoji():
     out = ''
     for item in x:
         out += emoji.get(item, item) + ' '
-        return out
+    return out
+
+
 
 print(emoji())
 
