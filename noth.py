@@ -1,3 +1,6 @@
-from converters import kg_to_lbs
+import random
 
-print(kg_to_lbs(70))
+list = ['younis','ibrahim','ali']
+
+leader = random.choice(list)
+print(leader)
