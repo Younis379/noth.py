@@ -1,18 +1,18 @@
-class Point:
-    def __init__(self,xx, yy):
-        self.x = xx
-        self.y = yy
-
-    def move(self):
-        print("move")
-    def draw(self):
-        print("draw")
+class player:
+    def __init__(self,st):
+        self.st =st
+    def walk(self):
+        print('walk')
 
 
-point = Point(10, 20)
-point.draw()
-print(point.x)
+class defender(player):
+    pass
 
-print(point.y)
-point.x = 11
-print(point.x)
+
+class attacker(player):
+    def attack(self):
+        print(f"{self.st} attacks")
+
+attack =attacker("younis")
+attack.attack()
+
