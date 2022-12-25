@@ -1,9 +1,10 @@
-def positive_sum(arr):
-    conc = []
-    for item in arr:
-        if item > 0:
-            conc.append(item)
-    return conc
+def enough_space(cap, on, wait):
+    if wait + on <= cap:
+        return 0
+    else:
+        num_people_left = wait + on - cap
+        print(f"{num_people_left} can't take")
+    return
 
 
-print(positive_sum([2, -4, 1, -4, 5]))
+enough_space(10, 14, 12)
