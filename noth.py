@@ -1,6 +1,9 @@
-import random
+def positive_sum(arr):
+    conc = []
+    for item in arr:
+        if item > 0:
+            conc.append(item)
+    return conc
 
-list = ['younis','ibrahim','ali']
 
-leader = random.choice(list)
-print(leader)
+print(positive_sum([2, -4, 1, -4, 5]))

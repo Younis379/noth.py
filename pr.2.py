@@ -1,4 +1,5 @@
-import  random
+import random
+
 
 class Dice:
     def roll(self):
@@ -9,5 +10,3 @@ class Dice:
 
 dice = Dice()
 print(dice.roll())
-
-
